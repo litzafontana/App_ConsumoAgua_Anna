@@ -1,9 +1,10 @@
 import cv2
 import os
+import getpass 
 
 #parametros de acesso da camera
-USERNAME = 'admin'
-PASSWORD = '96136258'
+USERNAME = getpass.getpass('usuario:')
+PASSWORD = getpass.getpass('senha:')
 IP = '192.168.100.119'
 PORT = '8554'
 
@@ -12,7 +13,7 @@ os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;udp"
 
 #rtsp://admin:96136258@192.168.100.119:8554/profile0
 URL = 'rtsp://{}:{}@{}:{}/profile0'.format(USERNAME, PASSWORD, IP, PORT)
-print('Conectando com:' + URL)
+print('Conectando com: ' + URL)
 
 cap = cv2.VideoCapture(URL, cv2.CAP_FFMPEG)
 
