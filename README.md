@@ -19,6 +19,4 @@ Cujo, não consome água diariamente.
 
 ## Demonstração
 
-Insira um gif ou um link de alguma demonstração
-
-https://media.giphy.com/media/cPNXOm7ln8HwK7UcbV/giphy.gif
+![Beba água!](https://media.giphy.com/media/cPNXOm7ln8HwK7UcbV/giphy.gif)
