@@ -3,6 +3,9 @@
 
 Este aplicativo, está sendo desenvolvido para monitorar o consumo de água de Anna.
 Cujo, não consome água diariamente.
+
+OBS: APP ainda em desenvolvimento
+
 ## Funcionalidades
 
 - Consumo diario de água;
