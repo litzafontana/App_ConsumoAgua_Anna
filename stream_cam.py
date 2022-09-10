@@ -12,6 +12,7 @@ print ('USERNAME')
 #so roda se for ffmpeg
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;udp"
 
+#rtsp://admin:96136258@192.168.100.119:8554/profile0
 #rtsp://admin:96136258@192.168.100.119:8554/profile0 (como endereço ficaria)
 URL = 'rtsp://{}:{}@{}:{}/profile0'.format(USERNAME, PASSWORD, IP, PORT)
 print('Conectando com: ' + URL)
@@ -34,4 +35,4 @@ while True:
 cap.release()
 cv2.destroyAllWindows()    
     
-   
+  
